@@ -1,6 +1,6 @@
-from dimecom.src.services.domain.service_id import ServiceId
-from dimecom.src.services.domain.service_code import ServiceCode
-from dimecom.src.services.domain.service_name import ServiceName
+from hexagonal.src.services.domain.service_id import ServiceId
+from hexagonal.src.services.domain.service_code import ServiceCode
+from hexagonal.src.services.domain.service_name import ServiceName
 
 class Service(object):
 

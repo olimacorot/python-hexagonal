@@ -1,5 +1,5 @@
-from dimecom.src.services.domain.service_id import ServiceId
-from dimecom.tests.src.shared.domain.uuid_mother import UuidMother
+from hexagonal.src.services.domain.service_id import ServiceId
+from hexagonal.tests.src.shared.domain.uuid_mother import UuidMother
 
 class ServiceIdMother(object):
     @staticmethod

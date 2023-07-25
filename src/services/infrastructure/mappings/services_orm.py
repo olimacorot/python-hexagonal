@@ -1,9 +1,9 @@
 from sqlalchemy import Column, String
 from sqlalchemy.orm import declarative_base
-from dimecom.src.services.domain.service import Service
-from dimecom.src.services.domain.service_id import ServiceId
-from dimecom.src.services.domain.service_code import ServiceCode
-from dimecom.src.services.domain.service_name import ServiceName
+from hexagonal.src.services.domain.service import Service
+from hexagonal.src.services.domain.service_id import ServiceId
+from hexagonal.src.services.domain.service_code import ServiceCode
+from hexagonal.src.services.domain.service_name import ServiceName
 
 Base = declarative_base()
 class ServicesOrm(Base):

@@ -1,5 +1,5 @@
-from dimecom.src.services.domain.service_id import ServiceId
-from dimecom.src.shared.domain.domain_error import DomainError
+from hexagonal.src.services.domain.service_id import ServiceId
+from hexagonal.src.shared.domain.domain_error import DomainError
 
 class ServiceNotExist(DomainError):
 

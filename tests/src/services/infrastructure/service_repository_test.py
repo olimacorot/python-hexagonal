@@ -1,9 +1,9 @@
 import unittest
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from dimecom.tests.src.services.domain.service_mother import ServiceMother
-from dimecom.tests.src.services.domain.service_id_mother import ServiceIdMother
-from dimecom.src.services.infrastructure.mysql_service_repository import MysqlServiceRepository
+from hexagonal.tests.src.services.domain.service_mother import ServiceMother
+from hexagonal.tests.src.services.domain.service_id_mother import ServiceIdMother
+from hexagonal.src.services.infrastructure.mysql_service_repository import MysqlServiceRepository
 import os
 from dotenv import load_dotenv
 

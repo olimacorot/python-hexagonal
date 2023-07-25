@@ -1,31 +1,31 @@
 [
     {
-        "module": "dimecom.apps.backend.src.controller.services.service_get_controller",
+        "module": "hexagonal.apps.backend.src.controller.services.service_get_controller",
         "controller": "ServiceGetController",
         "route": "/services/<id>",
         "dependency": true,
         "kwargs": "finder",
         "application": {
-            "module": "dimecom.src.services.application.find.service_finder",
+            "module": "hexagonal.src.services.application.find.service_finder",
             "class": "ServiceFinder"
         },
         "repository": {
-            "module": "dimecom.src.services.infrastructure.mysql_service_repository",
+            "module": "hexagonal.src.services.infrastructure.mysql_service_repository",
             "class": "MysqlServiceRepository"
         }
     },
     {
-        "module": "dimecom.apps.backend.src.controller.services.service_put_controller",
+        "module": "hexagonal.apps.backend.src.controller.services.service_put_controller",
         "controller": "ServicePutController",
         "route": "/services/<id>",
         "dependency": true,
         "kwargs": "creator",
         "application": {
-            "module": "dimecom.src.services.application.create.service_creator",
+            "module": "hexagonal.src.services.application.create.service_creator",
             "class": "ServiceCreator"
         },
         "repository": {
-            "module": "dimecom.src.services.infrastructure.mysql_service_repository",
+            "module": "hexagonal.src.services.infrastructure.mysql_service_repository",
             "class": "MysqlServiceRepository"
         }
     }

@@ -1,5 +1,5 @@
 from http import HTTPStatus
-from dimecom.tests.apps.backend.unit_test_base import UnitTestBase
+from hexagonal.tests.apps.backend.unit_test_base import UnitTestBase
 
 class HealthCheckGetControllerTest(UnitTestBase):
     

@@ -1,9 +1,9 @@
 import unittest
 from unittest.mock import Mock
-from dimecom.tests.src.services.domain.service_mother import ServiceMother
-from dimecom.src.services.domain.service_repository import ServiceRepository
-from dimecom.src.services.application.create.service_creator import ServiceCreator
-from dimecom.tests.src.services.application.create.service_creator_request_mother import ServiceCreatorRequestMother
+from hexagonal.tests.src.services.domain.service_mother import ServiceMother
+from hexagonal.src.services.domain.service_repository import ServiceRepository
+from hexagonal.src.services.application.create.service_creator import ServiceCreator
+from hexagonal.tests.src.services.application.create.service_creator_request_mother import ServiceCreatorRequestMother
 
 class ServiceCreatorTest(unittest.TestCase):
     __repository: Mock = None

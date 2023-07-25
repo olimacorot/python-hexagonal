@@ -1,8 +1,8 @@
 from sqlalchemy.orm import Session
-from dimecom.src.services.domain.service import Service
-from dimecom.src.services.domain.service_id import ServiceId
-from dimecom.src.services.domain.service_repository import ServiceRepository
-from dimecom.src.services.infrastructure.mappings.services_orm import ServicesOrm
+from hexagonal.src.services.domain.service import Service
+from hexagonal.src.services.domain.service_id import ServiceId
+from hexagonal.src.services.domain.service_repository import ServiceRepository
+from hexagonal.src.services.infrastructure.mappings.services_orm import ServicesOrm
 
 class MysqlServiceRepository(ServiceRepository):
     

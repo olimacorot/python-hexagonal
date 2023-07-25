@@ -6,6 +6,8 @@ install-dep:
 	pip install flask
 	pip install flask_restful
 	pip install unittest
+	pip install sqlalchemy
+	pip install flask_sqlalchemy
 	
 start-local:
 	python apps/backend/public/app.py

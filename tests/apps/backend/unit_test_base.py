@@ -1,5 +1,5 @@
 import unittest
-from dimecom.apps.backend.public.app import app, db
+from hexagonal.apps.backend.public.app import app, db
 
 class UnitTestBase(unittest.TestCase):
 

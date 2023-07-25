@@ -1,8 +1,8 @@
 import pickle
 from os.path import exists
-from dimecom.src.services.domain.service import Service
-from dimecom.src.services.domain.service_id import ServiceId
-from dimecom.src.services.domain.service_repository import ServiceRepository
+from hexagonal.src.services.domain.service import Service
+from hexagonal.src.services.domain.service_id import ServiceId
+from hexagonal.src.services.domain.service_repository import ServiceRepository
 
 class FileServiceRepository(ServiceRepository):
     

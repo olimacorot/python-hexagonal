@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_restful import Api
 from flask_sqlalchemy import SQLAlchemy
-from dimecom.apps.backend.config.routes.routes import Routes
+from hexagonal.apps.backend.config.routes.routes import Routes
 
 import os
 from dotenv import load_dotenv

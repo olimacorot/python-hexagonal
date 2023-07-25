@@ -1,9 +1,9 @@
-from dimecom.src.services.domain.service import Service
-from dimecom.src.services.domain.service_id import ServiceId
-from dimecom.src.services.domain.service_code import ServiceCode
-from dimecom.src.services.domain.service_name import ServiceName
-from dimecom.src.services.domain.service_repository import ServiceRepository
-from dimecom.src.services.application.create.service_creator_request import ServiceCreatorRequest
+from hexagonal.src.services.domain.service import Service
+from hexagonal.src.services.domain.service_id import ServiceId
+from hexagonal.src.services.domain.service_code import ServiceCode
+from hexagonal.src.services.domain.service_name import ServiceName
+from hexagonal.src.services.domain.service_repository import ServiceRepository
+from hexagonal.src.services.application.create.service_creator_request import ServiceCreatorRequest
 
 class ServiceCreator:
 

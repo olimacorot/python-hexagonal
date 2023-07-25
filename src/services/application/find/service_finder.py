@@ -1,8 +1,8 @@
-from dimecom.src.services.domain.service import Service
-from dimecom.src.services.domain.service_id import ServiceId
-from dimecom.src.services.domain.service_not_exist import ServiceNotExist
-from dimecom.src.services.domain.service_repository import ServiceRepository
-from dimecom.src.services.application.find.service_finder_response import ServiceFinderResponse
+from hexagonal.src.services.domain.service import Service
+from hexagonal.src.services.domain.service_id import ServiceId
+from hexagonal.src.services.domain.service_not_exist import ServiceNotExist
+from hexagonal.src.services.domain.service_repository import ServiceRepository
+from hexagonal.src.services.application.find.service_finder_response import ServiceFinderResponse
 
 class ServiceFinder:
     

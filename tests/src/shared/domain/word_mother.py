@@ -1,4 +1,4 @@
-from dimecom.tests.src.shared.domain.mother_creator import MotherCreator
+from hexagonal.tests.src.shared.domain.mother_creator import MotherCreator
 
 class WordMother(object):
     @staticmethod

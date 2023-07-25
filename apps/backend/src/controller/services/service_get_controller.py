@@ -1,8 +1,8 @@
 from flask import abort
 from flask_restful import Resource
-from dimecom.src.services.domain.service_id import ServiceId
-from dimecom.src.services.domain.service_not_exist import ServiceNotExist
-from dimecom.src.services.application.find.service_finder import ServiceFinder
+from hexagonal.src.services.domain.service_id import ServiceId
+from hexagonal.src.services.domain.service_not_exist import ServiceNotExist
+from hexagonal.src.services.application.find.service_finder import ServiceFinder
 
 class ServiceGetController(Resource):
     def __init__(self, finder: ServiceFinder):

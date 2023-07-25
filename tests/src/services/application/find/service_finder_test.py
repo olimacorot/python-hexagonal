@@ -1,9 +1,9 @@
 import unittest
 from unittest.mock import Mock
-from dimecom.src.services.domain import *
-from dimecom.tests.src.services.domain.service_mother import ServiceMother
-from dimecom.src.services.application.find.service_finder import ServiceFinder
-from dimecom.tests.src.services.domain.service_id_mother import ServiceIdMother
+from hexagonal.src.services.domain import *
+from hexagonal.tests.src.services.domain.service_mother import ServiceMother
+from hexagonal.src.services.application.find.service_finder import ServiceFinder
+from hexagonal.tests.src.services.domain.service_id_mother import ServiceIdMother
 
 class ServiceFinderTest(unittest.TestCase):
 

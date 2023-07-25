@@ -1,6 +1,6 @@
 [
     {
-        "module": "dimecom.apps.backend.src.controller.health_check.health_check_get_controller",
+        "module": "hexagonal.apps.backend.src.controller.health_check.health_check_get_controller",
         "controller": "HealthCheckGetController",
         "route": "/health-check",
         "dependency": false,

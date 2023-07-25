@@ -1,5 +1,5 @@
-from dimecom.src.services.domain.service_name import ServiceName
-from dimecom.tests.src.shared.domain.word_mother import WordMother
+from hexagonal.src.services.domain.service_name import ServiceName
+from hexagonal.tests.src.shared.domain.word_mother import WordMother
 
 class ServiceNameMother:
 
